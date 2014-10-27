@@ -1,3 +1,4 @@
+
 #DockerX2go
 ==========
 
@@ -49,7 +50,7 @@ Port : 2222
 Username : root 
 Password : (varies or could be just 'changeme')
 
-Select the Session TYPE as : XFCE or LXDE depending on your setup . 
+Select the Session TYPE as : Custom desktop / startxfqt OR awesome, depending on your setup. 
 
 You can also SSH to the docker container directly with root or dockerx users and their passwords over the port 2222 with linux ssh or windows putty clients.
 
