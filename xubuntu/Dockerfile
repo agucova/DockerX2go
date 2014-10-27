@@ -1,11 +1,15 @@
-FROM ubuntu:14.04
-MAINTAINER Paimpozhil "paimpozhil@gmail.com"
+FROM ubuntu
+MAINTAINER Conrad
 
 RUN apt-get update 
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get install -y openssh-server xubuntu-desktop 
+RUN apt-get install -y openssh-server awesome awesome-extra fonts-font-awesome
+
+RUN apt-get install -y software-properties-common python-software-properties
+
+RUN apt-get install -y gnome
 
 RUN add-apt-repository ppa:x2go/stable
 
