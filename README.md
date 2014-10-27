@@ -1,16 +1,12 @@
-
 #DockerX2go
 ==========
 
-Docker images which contain different Desktop setups 
+Docker images which contain different desktop environments for remote connection with X2go. 
 
 Currently we have
 
-1. Xubuntu 14.04 
-2. Ubuntu 14.04 with LXDE 
-3. Centos with XFCE
-
-more coming 
+1. awesomewm
+2. xfqt
 
 ### Demo
 
@@ -83,6 +79,8 @@ Note you can run like 2-3 desktops over a cheap DigitalOcean/Linode like VPS.
 ###Credits:
 
 ####http://bmullan.wordpress.com/
+
+####https://github.com/paimpozhil/DockerX2go
 ####https://github.com/rogaha/docker-desktop
 ####https://github.com/tutumcloud/tutum-ubuntu
 
